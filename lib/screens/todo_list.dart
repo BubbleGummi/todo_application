@@ -4,7 +4,7 @@ import 'package:todo_application/models/todos.dart';
 import 'package:todo_application/data/todolist_api.dart';
 
 class TodoList extends StatefulWidget {
-  TodoList({Key? key}) : super(key: key);
+  const TodoList({super.key});
 
   @override 
   _TodoListState createState() => _TodoListState();
